@@ -12,6 +12,8 @@ So to summarise the P component is the proportional gain constant and defines th
 
 So in order to determine the optimal values so that my car stays on the road I started by setting the D and I components to zero, attempting to find the best value for P. Once that value was discovered I started increasing the I component and subsequently the D component. I found out the optimal values of the PID controller only after a few updates to the components.
 
+The PID controller was tuned at a 1024x768 resolution and Fantastic quality. 
+
 Below you can see a short video of the car staying within the tracks:
 
 [video output][video1]
